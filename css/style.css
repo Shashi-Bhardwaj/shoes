@@ -1,0 +1,70 @@
+.top-header {
+  background-color: #242424;
+}
+.right-side{
+	
+	float:right;
+	
+}
+li {
+  display: inline-block;
+}
+.list-unstyled a {
+  border-right: 1px solid #7e7e7e;
+  color: #7e7e7e;
+  display: inline-block;
+  font-weight: bold;
+  padding: 15px 22px;
+  text-decoration: none;
+}
+.logo {
+  float: left;
+  width: 20%;
+}
+ul{ margin:0;}
+.logo > a {
+  display: inline-block;
+  padding-top: 10px;
+  text-align: center;
+}
+.menu a {
+  border-right: 1px solid #eeeeee;
+  color: #242424;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 24px 26px;
+  text-transform: capitalize;
+}
+.menu > li:first-child a {
+  border-left: 1px solid #eeeeee;
+}
+.menu {
+  padding: 0;
+}
+.menu a:hover {
+  text-decoration: none;
+}
+.sec3{
+	
+	
+	background:url('../img/banner.jpg');
+}
+.pinkshoes {
+  float: right;
+  margin: 67px 0;
+  padding: 0;
+  transform: translateX(-264px);
+  width: 24%;
+}
+h1::before {
+  background-color: #57c5a0;
+  color: white;
+  content: "$145.99";
+  display: block;
+  font-size: 13px;
+  height: 67px;
+  line-height: 67px;
+  text-align: center;
+  width: 67px;
+}
